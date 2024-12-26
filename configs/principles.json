@@ -1,0 +1,63 @@
+{
+  "K": {
+    "start_func": [
+			"(X-3, Y)",
+			"(X+2, Y)"
+		],
+    "func": [
+			"(X+-1, Y)",
+			"(X, Y+-1)",
+			"(X+-1, Y+-1)"
+		]
+  },
+
+  "q": {
+	"color_related": false,
+	"func": [
+			"(X+-k, Y)",
+			"(X, Y+-k)",
+			"(X+-k, Y+-k)"
+		]
+	},
+
+  "b": {
+	"color_related": false,
+	"func": [
+			"(X+-k, Y+-k)"
+		]
+	},
+
+  "k": {
+	"color_related": false,
+	"func": [
+			"(X+-1, Y+-2)",
+			"(X+-2, Y+-1)"
+		]
+	},
+  "p": {
+	"color_related": true,
+	"start_func":
+		[
+			"(X, Y+1)",
+			"(X, Y+2)"
+		],
+	"func":
+		[
+			"(X, Y+1)"
+		],
+	"eat": [
+			"(X+-1, Y+1)"
+		]
+	},
+  "r": {
+	"color_related": false,
+	"func": [
+			"(X+-k, Y)",
+			"(X, Y+-k)"
+		]
+	}
+}
+
+
+
+
